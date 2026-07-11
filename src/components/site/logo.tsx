@@ -2,13 +2,21 @@ import { cn } from "@/lib/utils";
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <span
-      className={cn(
-        "font-heading text-xl font-semibold tracking-tight text-foreground",
-        className,
-      )}
-    >
-      Corvus
+    <span className={cn("flex items-center gap-2.5", className)}>
+      <svg
+        viewBox="355 454 794 592"
+        fill="currentColor"
+        aria-hidden="true"
+        className="size-[22px] shrink-0 text-primary"
+      >
+        <path
+          fillRule="evenodd"
+          d="M 366.339844 722.90625 L 548.347656 540.878906 C 663.375 425.859375 851.59375 425.859375 966.632812 540.878906 L 1148.617188 722.90625 C 1148.640625 722.90625 1148.640625 722.90625 1148.640625 722.90625 L 1064.914062 722.90625 C 914.980469 722.90625 911.023438 585.707031 757.488281 585.707031 C 666.988281 585.707031 593.175781 659.519531 593.175781 750.03125 C 593.175781 840.53125 666.988281 914.34375 757.488281 914.34375 C 911.15625 914.34375 915.152344 777.144531 1066.933594 777.144531 L 1148.636719 777.144531 C 1148.636719 777.144531 1148.636719 777.144531 1148.617188 777.167969 L 966.632812 959.171875 C 851.59375 1074.207031 663.375 1074.207031 548.347656 959.171875 L 366.339844 777.167969 C 351.417969 762.238281 351.417969 737.835938 366.339844 722.90625 Z"
+        />
+      </svg>
+      <span className="font-heading text-xl font-semibold tracking-tight text-foreground">
+        corvus
+      </span>
     </span>
   );
 }

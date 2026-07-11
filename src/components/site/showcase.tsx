@@ -62,7 +62,7 @@ export function Showcase() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mx-auto mt-4 max-w-xl text-balance text-muted-foreground"
         >
-          Every shadcn/ui primitive running live on Corvus&apos;s sage theme —
+          Every shadcn/ui primitive running live on Corvus&apos;s sage theme:
           inputs, selects, sliders, accordions, and more.
         </motion.p>
       </div>

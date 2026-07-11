@@ -7,7 +7,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 
-const headline = "Ship beautiful products, faster.";
+const headline = "Start from something beautiful.";
 const stack = ["shadcn/ui", "Framer Motion", "Skiper UI"];
 
 export function Hero() {
@@ -107,9 +107,8 @@ export function Hero() {
         transition={{ duration: 0.6, delay: 0.5 }}
         className="mt-6 max-w-xl text-balance text-center text-lg text-muted-foreground"
       >
-        Corvus is a design-forward starter kit — shadcn/ui, Framer Motion and
-        Skiper UI wired together with a calm, sage-toned aesthetic so you can
-        build the interesting part of your product first.
+        Corvus packs shadcn/ui, Framer Motion, and Skiper UI into one opinionated
+        starter. The setup is handled. The interesting part is up to you.
       </motion.p>
 
       <motion.div

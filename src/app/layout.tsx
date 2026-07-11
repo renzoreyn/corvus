@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bricolage_Grotesque, Geist, Geist_Mono } from "next/font/google";
 
 import { ScrollProgress } from "@/components/site/scroll-progress";
 import { SquircleFilter } from "@/components/squircle-filter";
@@ -18,9 +18,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const bricolage = Bricolage_Grotesque({
+  variable: "--font-bricolage",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
   title: "Corvus",
-  description: "A design-forward boilerplate with a calm, sage-toned aesthetic.",
+  description: "A design-first Next.js boilerplate. shadcn/ui, Framer Motion, and Skiper UI, ready to go.",
 };
 
 export default function RootLayout({
@@ -32,7 +38,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${bricolage.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         <ThemeProvider

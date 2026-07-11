@@ -15,14 +15,14 @@ const features = [
     icon: Palette,
     title: "Sage-toned design tokens",
     description:
-      "A calm, muted color system inspired by iPhone 17's Sage finish — tuned in OKLCH for light and dark.",
+      "A calm color system inspired by iPhone 17 Sage, dialed in OKLCH for accurate light and dark rendering.",
     span: "md:col-span-2",
   },
   {
     icon: Zap,
     title: "Framer Motion everywhere",
     description:
-      "Entrance transitions, hover states and scroll-linked animation are wired in from the first commit.",
+      "Entrance transitions, hover states, and scroll-linked animations are wired in from the first commit.",
     span: "",
   },
   {
@@ -36,7 +36,7 @@ const features = [
     icon: ShieldCheck,
     title: "shadcn/ui foundation",
     description:
-      "Accessible, unstyled primitives from Radix, themed to match — buttons, sheets, dialogs, tabs and more.",
+      "Accessible, unstyled primitives backed by Base UI, themed to match. Buttons, sheets, dialogs, tabs and more, all styled to feel at home.",
     span: "md:col-span-2",
   },
   {
@@ -48,9 +48,9 @@ const features = [
   },
   {
     icon: Sparkles,
-    title: "Ready for your brand",
+    title: "Make it yours",
     description:
-      "Drop in your own logo.svg and adjust a handful of CSS variables to make Corvus feel like yours.",
+      "Swap the colors, drop in your logo, rename everything. One config file of changes and it already feels like home.",
     span: "",
   },
 ];
@@ -75,8 +75,8 @@ export function Features() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mx-auto mt-4 max-w-xl text-balance text-muted-foreground"
         >
-          A batteries-included boilerplate, not a framework. Read the code,
-          delete what you don&apos;t need.
+          A real boilerplate, not a template. Take what you need, leave what you
+          don&apos;t.
         </motion.p>
       </div>
 
